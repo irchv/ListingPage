@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 
 function App() {
   ///Side bar bttn
-  const [showComponent, setShowComponent] = useState(true);
+  const [showComponent, setShowComponent] = useState(false);
 
   const handleShow = () => {
     setShowComponent(true);
