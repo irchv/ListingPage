@@ -3,7 +3,7 @@ import Input from '../../components/Input';
 const Colors = ({ handleChange }) => {
   return (
     <>
-      <div className=''>
+      <div className='ml-2'>
         <h2 className='sidebar-title mb-4 text-center font-primary '>Colors</h2>
         <div className='flex flex-col gap-2 items-start pr-8'>
           <label className='sidebar-label-container'>
@@ -14,8 +14,9 @@ const Colors = ({ handleChange }) => {
               name='test1'
               className=''
             />
-            <span className='checkmark all mr-2'></span>
-            All
+            <span className='checkmark all pl-2 font-primary text-[12px]'>
+              All
+            </span>
           </label>
 
           <Input
@@ -43,15 +44,17 @@ const Colors = ({ handleChange }) => {
             color='gray'
           />
 
-          <label className='mr-2'>
+          <label className=''>
             <input
               onChange={handleChange}
               type='radio'
               value='white'
               name='test1'
+              className='h-3'
             />
-            <span className='checkmark mr-2'></span>
-            White
+            <span className='checkmark pl-2 font-primary text-[12px]'>
+              White{' '}
+            </span>
           </label>
         </div>
       </div>

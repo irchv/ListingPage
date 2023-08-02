@@ -4,33 +4,19 @@ import weight from '../img/weight.svg';
 function Footer() {
   return (
     <>
-      <footer class='bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100 mt-10 w-[800px] '>
+      <footer class='bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100 mt-10 w-full '>
         <div class='max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8'>
           <div class='flex flex-row gap-7 justify-center items-center'>
             <div className=''>
-              <img src={weight} class='mr-5 h-6 sm:h-9' alt='logo' />
+              <img src={weight} class='mr-5 h-6 sm:h-9 mx-[30%]' alt='logo' />
 
-              <div class='flex mt-8 space-x-6 text-gray-600'>
+              <div class='flex flex-col justify-center mt-8 mr-10 space-x-6 text-gray-600 md:flex-row'>
                 <a
                   class='hover:opacity-75 font-primary'
                   href
                   target='_blank'
                   rel='noreferrer'
-                >
-                  <span class='sr-only '> Facebook </span>
-                  <svg
-                    class='w-6 h-6'
-                    fill='currentColor'
-                    viewBox='0 0 24 24'
-                    aria-hidden='true'
-                  >
-                    <path
-                      fillRule='evenodd'
-                      d='M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z'
-                      clipRule='evenodd'
-                    />
-                  </svg>
-                </a>
+                ></a>
                 <a
                   class='hover:opacity-75 font-primary'
                   href
@@ -111,8 +97,10 @@ function Footer() {
             </div>
             <div class='flex flex-row gap-4 mt-5'>
               <div>
-                <p class='font-medium font-primary'>Helpful Links</p>
-                <nav class='flex flex-col mt-4 space-y-2 text-sm text-gray-500'>
+                <p class='font-medium font-primary text-[12px] md:text-lg'>
+                  Helpful Links
+                </p>
+                <nav class='flex flex-col mt-4 space-y-2 text-[12px] text-gray-500 md:text-sm'>
                   <a class='hover:opacity-75 font-primary' href>
                     {' '}
                     Contact{' '}
@@ -128,8 +116,10 @@ function Footer() {
                 </nav>
               </div>
               <div>
-                <p class='font-medium font-primary'>Legal</p>
-                <nav class='flex flex-col mt-4 space-y-2 text-sm text-gray-500'>
+                <p class='font-medium font-primary text-[12px] md:text-lg'>
+                  Legal
+                </p>
+                <nav class='flex flex-col mt-4 space-y-2 text-[12px] text-gray-500 md:text-sm'>
                   <a class='hover:opacity-75 font-primary' href>
                     {' '}
                     Privacy Policy{' '}

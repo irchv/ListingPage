@@ -88,7 +88,7 @@ function App() {
       <div className='w-[500px] '>
         <button onClick={handleShow} className='mr-2'>
           {' '}
-          <MdFilterListAlt className='ml-96 mt-4 } ' size={28} />
+          <MdFilterListAlt className='ml-[4rem] mt-4 } ' size={28} />
         </button>
         <button onClick={handleHide}>
           {' '}

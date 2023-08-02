@@ -4,13 +4,13 @@ const Price = ({ handleChange }) => {
   return (
     <>
       <div className='ml-10 w-32'>
-        <h2 className='sidebar-title price-title text-center font-primary'>
+        <h2 className='sidebar-title price-title text-center font-primary pr-4 mb-2'>
           Price
         </h2>
         <div className='flex flex-col gap-2 items-start  mb-4 '>
           <label className='sidebar-label-container font-primary'>
             <input onChange={handleChange} type='radio' value='' name='test2' />
-            <span className='checkmark mr-2'></span>All
+            <span className='checkmark pl-2 text-[14px] font-primary'>All</span>
           </label>
 
           <Input
