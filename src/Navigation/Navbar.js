@@ -1,7 +1,7 @@
 import weight from '../img/weight.svg';
 const Nav = () => {
   return (
-    <header class='w-full text-gray-700 bg-white border-t border-gray-100 shadow-sm body-font fixed mb-[500px] z-50 sm:'>
+    <header class='max-w'>
       <div class='container flex flex-col flex-wrap items-center p-5 mx-auto sm:flex-row'>
         <nav class='flex flex-wrap items-center text-base lg:w-2/5 md:ml-auto'>
           <a href='#_' class='mr-5 font-medium hover:text-gray-900'>

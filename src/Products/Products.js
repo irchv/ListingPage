@@ -1,9 +1,9 @@
 const Products = ({ result }) => {
   return (
     <>
-      <section className='flex flex-wrap mx-auto mt-8 z-[-2] flex-row w-[100px] ml-[30%] xl:w-[900px] sm:ml-[20%]w-[600px] md:ml-[30%] w-[700px] '>
+      <div className='max-w-[700px] m-0  grid gap-1 grid-cols-2 md:grid-cols-3 mx-auto'>
         {result}
-      </section>
+      </div>
     </>
   );
 };

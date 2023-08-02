@@ -4,7 +4,7 @@ import { AiFillStar } from 'react-icons/ai';
 const Card = ({ img, title, star, reviews, prevPrice, newPrice, desc }) => {
   return (
     <>
-      <section className='m-[20px] border-2 border-[#ededed] p-[20px] cursor-pointer w-[250px]'>
+      <div className='m-[20px] border-2 border-[#ededed] p-[20px] cursor-pointer w-[140px] md:w-[250px]'>
         <div>
           {' '}
           <img src={img} alt={title} className='w-64 mb-4' />
@@ -25,7 +25,8 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice, desc }) => {
           </section>
           <section className='flex justify-between items-center '>
             <div className='price w-24'>
-              <del className='font-primary'>{prevPrice}</del> $ {newPrice}
+              <del className='font-primary text-[12px]'>{prevPrice}</del>{' '}
+              <p className='font-primary text-[12px]'>$ {newPrice}</p>
             </div>
             <div className='bag cursor-pointer'>
               <BsFillBagFill
@@ -37,7 +38,7 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice, desc }) => {
             </div>
           </section>
         </div>
-      </section>
+      </div>
     </>
   );
 };
