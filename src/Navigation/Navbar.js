@@ -4,19 +4,19 @@ const Nav = () => {
     <header class='max-w'>
       <div class='container flex flex-col flex-wrap items-center p-5 mx-auto sm:flex-row'>
         <nav class='flex flex-wrap items-center text-base lg:w-2/5 md:ml-auto'>
-          <a href='#_' class='mr-5 font-medium hover:text-gray-900'>
+          <a href='index.html' class='mr-5 font-medium hover:text-gray-900'>
             Home
           </a>
-          <a href='#_' class='mr-5 font-medium hover:text-gray-900'>
+          <a href='index.html ' class='mr-5 font-medium hover:text-gray-900'>
             About
           </a>
-          <a href='#_' class='font-medium hover:text-gray-900'>
+          <a href='index.html' class='font-medium hover:text-gray-900'>
             Contact
           </a>
         </nav>
         <a
           class='flex items-center order-first mb-4 font-medium text-gray-900 lg:order-none lg:w-1/5 title-font lg:items-center lg:justify-center md:mb-0'
-          href='#'
+          href='index.html'
         >
           <img src={weight} className='h-10' />
         </a>
