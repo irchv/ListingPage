@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Product Listing Page 
 
-## Available Scripts
+A brief description of what this project does: 
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technolgies Used 
 
-### `npm test`
+React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TailwindCSS
 
-### `npm run build`
+JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project is also hosted on Vercel and it's connected with the GitHub repository of the project and when new changes happen it's automatically overridden.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can access it form [here](https://listing-page-coral.vercel.app/ )
+## Main Idea
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project represents a product listing page of an e-commerce store for sports goods, specifically CrossFit.
 
-### `npm run eject`
+The layout was chosen to be basic, intuitive, and user-friendly on different devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The chosen color theme is easy to read and the colors implemented act as an effect and a way to differentiate the various blocks of content
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Font used: Montserrat : https://fonts.google.com/specimen/Montserrat
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Colors: 
+White 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Light-Gray: #9ca3af
 
-## Learn More
+Light-Blue: #bce1ff
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## On the code side of things 
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The data for the products come from a local .JSON file which contains the needed parameters for each product and it's used to render the product cards as well as to make the categorization possible.
 
-### Deployment
+On the left side of the page, you can find a sidebar, which opens when pressing the filter button, and that way you can filter the items. It's initially hidden and the idea behind is to achieve more of a minimalistic design of the page and the main focus of the user to be on the products.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The styling is used TailwindCSS and the products page is used grid configuration with ```display:grid``` and the app is responsive on mobile as well. As specified in the task, the header is sticky.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Challenges
+
+As in every task or project, there were some challenges. The challenges in the task were not many, but they were not lacking, even if they were few.
+
+Some of them were related to the filtering of the products and others to thinking about the whole layout of the app but from that, I learned new things which I'm sure will be valuable in the future.
