@@ -85,10 +85,10 @@ function App() {
     <>
       <Navigation />
       <Banner />
-      <div className='w-[200px] mx-auto'>
+      <div className='w-[500px] '>
         <button onClick={handleShow} className='mr-2'>
           {' '}
-          <MdFilterListAlt className=' mt-4 } ' size={28} />
+          <MdFilterListAlt className='ml-96 mt-4 } ' size={28} />
         </button>
         <button onClick={handleHide}>
           {' '}

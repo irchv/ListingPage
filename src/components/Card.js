@@ -12,7 +12,7 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice, desc }) => {
 
         <div className='card-details'>
           <h3 className='mb-4 font-primary font-bold'>{title}</h3>
-          <p>{desc}</p>
+          <p className='text-[12px]'>{desc}</p>
 
           <section className='mb-4 flex gap-2 items-center '>
             {star} <AiFillStar className='hover:fill-orange-500 star' />
